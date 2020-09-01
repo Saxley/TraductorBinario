@@ -15,7 +15,7 @@ aplicar.addEventListener("click", traducir);
 var alfabeto = [" ","A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var num = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
 //Tema
-var src=["assets/Noche.png","assets/Dia.png"];
+var link_src=["assets/Noche.png","assets/Dia.png"];
 var color=["#000","#fff"];
 
 //FUNCIONES
@@ -57,14 +57,14 @@ traduccion.innerHTML=text_final;
 //BOTON TEMA
 function tema(){
   if(DN){
-    imgT.src=src[1];
+    imgT.src=link_src[1];
     document.body.style.backgroundColor=color[1];
     document.body.style.color=color[0];
     aplicar.style.color=color[0];
     txt_box.style.color=color[0];
     DN=false;
   }else {
-    imgT.src=src[0];
+    imgT.src=link_src[0];
     document.body.style.backgroundColor=color[0];
     document.body.style.color=color[1];
     aplicar.style.color=color[1];
