@@ -48,10 +48,6 @@
   border-radius: 20px;
   margin-bottom: 30px;
 }
-.button:hover {
-  background-color: black;
-  color: white;
-}
 
 .txt-box {
   color: black;
@@ -62,3 +58,4 @@
   border-bottom: 1px solid black;
   margin-bottom: 10%;
 }
+/*Footer*/
