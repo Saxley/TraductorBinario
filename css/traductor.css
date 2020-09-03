@@ -5,6 +5,12 @@
   padding-left: 2%;
   padding-right: 2%;
 }
+#cambio{
+  width: 10%;
+  height: auto;
+  transform: translate(10px,0px);
+  text-align: center;
+}
 #tittle {
   text-align: center;
 }
